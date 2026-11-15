@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ads-title {
+  color: white;
+}
+
+.ads-letter {
+  display: inline-block;
+  color: white;
+  animation: yellowLetterReveal 1.2s ease forwards;
+  animation-delay: 0s;
+}
+
+@keyframes yellowLetterReveal {
+  0% {
+    color: white;
+  }
+
+  45% {
+    color: white;
+  }
+
+  100% {
+    color: #facc15;
+  }
+}
